@@ -47,7 +47,7 @@ public class Database {
 			logger.error("Nem található az illesztőprogram.");
 		}
 
-		String url = "jdbc:oracle:thin:@localhost:1521:ora11g";
+		String url = "jdbc:oracle:thin:@db.inf.unideb.hu:1521:ora11g";
 		con = DriverManager.getConnection(url, this.username, this.password);
 		
 		logger.info("Adatbáziskapcsolat létesítés sikeres!");
