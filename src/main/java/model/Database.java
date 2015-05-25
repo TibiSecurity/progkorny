@@ -44,13 +44,13 @@ public class Database {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 		} catch (ClassNotFoundException e) {
-			logger.error("Nem található az illesztőprogram.");
+			logger.error("Nem talalhato az illesztoprogram.");
 		}
 
 		String url = "jdbc:oracle:thin:@db.inf.unideb.hu:1521:ora11g";
 		con = DriverManager.getConnection(url, this.username, this.password);
 		
-		logger.info("Adatbáziskapcsolat létesítés sikeres!");
+		logger.info("Adatbaziskapcsolat letesites sikeres!");
 	}
 	
 	/**
@@ -61,9 +61,9 @@ public class Database {
 			try {
 				con.close();
 				if (con.isClosed()) 
-					logger.info("Az adatbáziskapcsolat bezárása sikeres!");
+					logger.info("Az adatbaziskapcsolat bezarasa sikeres!");
 			} catch (SQLException e) {
-				logger.error("Nem sikerült bezárni az adatbáziskapcsolatot!");
+				logger.error("Nem sikerult bezarni az adatbaziskapcsolatot!");
 			}
 		}
 	}
