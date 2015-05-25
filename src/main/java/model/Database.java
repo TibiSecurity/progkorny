@@ -11,6 +11,9 @@ import org.slf4j.LoggerFactory;
  * Class for database related tasks.
  */
 public class Database {
+	/**
+	 * Logger object for the Database class.
+	 */
 	Logger logger = LoggerFactory.getLogger(Database.class);
 	/**
 	 * The database connection object.

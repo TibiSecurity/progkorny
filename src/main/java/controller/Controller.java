@@ -24,6 +24,9 @@ import org.slf4j.LoggerFactory;
  * Controller class.
  */
 public class Controller {
+	/**
+	 * Logger object for the Controller class.
+	 */
 	Logger logger = LoggerFactory.getLogger(Controller.class);
 	/**
 	 * {@code Database} object to be able to reach main database related methods.

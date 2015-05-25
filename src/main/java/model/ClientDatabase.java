@@ -18,6 +18,9 @@ import org.slf4j.LoggerFactory;
  * Class for database and client related tasks.
  */
 public class ClientDatabase {
+	/**
+	 * Logger object for the ClientDatabase class.
+	 */
 	Logger logger = LoggerFactory.getLogger(ClientDatabase.class);
 	/**
 	 * List of clients that are in the database.

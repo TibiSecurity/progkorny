@@ -16,6 +16,9 @@ import org.slf4j.LoggerFactory;
  * Class for database and car related tasks.
  */
 public class CarDatabase {
+	/**
+	 * Logger object for the CarDatabase class.
+	 */
 	Logger logger = LoggerFactory.getLogger(CarDatabase.class);
 	/**
 	 * List of cars that are in the database.

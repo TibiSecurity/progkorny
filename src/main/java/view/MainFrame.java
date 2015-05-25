@@ -34,6 +34,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MainFrame extends JFrame {
+	/**
+	 * Logger object for the MainFrame class.
+	 */
 	Logger logger = LoggerFactory.getLogger(MainFrame.class);
 	private TextPanel textPanel;
 	private Toolbar toolbar;
