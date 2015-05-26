@@ -111,7 +111,7 @@
 						<configuration>
 							<archive>
 								<manifest>
-									<mainClass>App</mainClass>
+									<mainClass>view.App</mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>
